@@ -1,22 +1,3 @@
-# We will use pound/Hash symbol for comment
-# error.log 	# ignore error.log file
- 
-# ignore all the files who have extension .log
+Readme.md
 *.log
-
-# ignore whatever(Files & folders) inside Dir/ directiory 
-# Dir/	
-# Same as upper line 
-# static/		
-
-
-# Assuming static folder is not mention in .gitignore and static folder does not have anything execept dir folder
-# dir inside the  static folder is ignored( but the static folder is not ignored)
-# static/dir 		
-
-
-# ******** Imp topic *********
-# All Dir folder is present indise working directiory or any sub directiory
-# Dir/			
-# dir folder which present in working directiory only will be ignored 
-/dir/ 	
+dir/
